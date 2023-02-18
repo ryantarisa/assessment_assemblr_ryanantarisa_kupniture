@@ -1,13 +1,13 @@
 import React from "react"
 import Home from "../components/MainPage/Home"
-import FlashDeals from "../components/flashDeals/FlashDeals"
+import Featured from "../components/featured/Featured"
 
 
 const Pages = ({ productItems, addToCart, CartItem, shopItems }) => {
   return (
     <>
       <Home CartItem={CartItem} />
-      <FlashDeals productItems={productItems} addToCart={addToCart} />
+      <Featured productItems={productItems} addToCart={addToCart} />
     </>
   )
 }

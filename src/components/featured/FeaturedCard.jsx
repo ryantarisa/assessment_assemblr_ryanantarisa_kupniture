@@ -23,7 +23,7 @@ const SamplePrevArrow = (props) => {
     </div>
   )
 }
-const FlashCard = ({ productItems, addToCart }) => {
+const FeaturedCard = ({ productItems, addToCart }) => {
   const [count, setCount] = useState(0)
   const increment = () => {
     setCount(count + 1)
@@ -45,28 +45,14 @@ const FlashCard = ({ productItems, addToCart }) => {
           return (
             <div className='box'>
               <div className='product mtop'>
-                <div className='img'>
-                  <span className='discount'>{productItems.discount}% Off</span>
+                <div style={{textAlign:"center"}} className='img'>
                   <img src={productItems.cover} alt='' />
-                  <div className='product-like'>
-                    <label>{count}</label> <br />
-                    <i className='fa-regular fa-heart' onClick={increment}></i>
-                  </div>
                 </div>
                 <div className='product-details'>
-                  <h3>{productItems.name}</h3>
-                  <div className='rate'>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                    <i className='fa fa-star'></i>
-                  </div>
+                  <h3 style={{fontWeight:"bold"}}>{productItems.name}</h3>
+                  {/* s */}
                   <div className='price'>
-                    <h4>${productItems.price}.00 </h4>
-                    {/* step : 3  
-                     if hami le button ma click garryo bahne 
-                    */}
+                    <h4>Rp.{productItems.price} </h4>
                     <button onClick={() => addToCart(productItems)}>
                       <i className='fa fa-plus'></i>
                     </button>
@@ -81,4 +67,4 @@ const FlashCard = ({ productItems, addToCart }) => {
   )
 }
 
-export default FlashCard
+export default FeaturedCard

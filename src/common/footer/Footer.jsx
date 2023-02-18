@@ -1,5 +1,6 @@
 import React from "react"
 import "./style.css"
+import logo from "../../components/assets/images/logo.png"
 
 const Footer = () => {
   return (
@@ -7,8 +8,8 @@ const Footer = () => {
       <footer>
         <div className='container grid2'>
           <div className='box'>
-            <h1>Bonik</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor libero id et, in gravida. Sit diam duis mauris nulla cursus. Erat et lectus vel ut sollicitudin elit at amet.</p>
+          <img className="logo" src={logo} alt='' />
+            <p>Here you can explore the Kupniture story and learn more about our heritage and the events that shaped us.</p>
             <div className='icon d_flex'>
               <div className='img d_flex'>
                 <i className='fa-brands fa-google-play'></i>
@@ -44,9 +45,9 @@ const Footer = () => {
           <div className='box'>
             <h2>Contact Us</h2>
             <ul>
-              <li>70 Washington Square South, New York, NY 10012, United States </li>
-              <li>Email: uilib.help@gmail.com</li>
-              <li>Phone: +1 1123 456 780</li>
+              <li>Samarinda, Kalimantan Timur, 75119 , Indonesia. </li>
+              <li>Email: Customer-care@kupniture.com</li>
+              <li>Phone: +62 821 456 780</li>
             </ul>
           </div>
         </div>

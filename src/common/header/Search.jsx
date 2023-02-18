@@ -1,13 +1,12 @@
 import React from "react"
 import logo from "../../components/assets/images/logo.png"
 import { Link } from "react-router-dom"
-import { width } from "@mui/system";
 
 const Search = ({ CartItem }) => {
   // fixed Header
   window.addEventListener("scroll", function () {
     const search = document.querySelector(".search")
-    search.classList.toggle("active", window.scrollY > 100)
+    search.classList.toggle("active", window.scrollY > 200)
   })
 
   return (
@@ -21,7 +20,7 @@ const Search = ({ CartItem }) => {
           <div className='search-box f_flex'>
             <i className='fa fa-search'></i>
             <input type='text' />
-            <span>All Category</span>
+            <span>Categories</span>
           </div>
 
           <div className='icon f_flex width'>
