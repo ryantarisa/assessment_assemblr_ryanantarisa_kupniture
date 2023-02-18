@@ -52,7 +52,7 @@ const FeaturedCard = ({ productItems, addToCart }) => {
                   <h3 style={{fontWeight:"bold"}}>{productItems.name}</h3>
                   {/* s */}
                   <div className='price'>
-                    <h4>Rp.{productItems.price} </h4>
+                    <h4>IDR {productItems.price} </h4>
                     <button onClick={() => addToCart(productItems)}>
                       <i className='fa fa-plus'></i>
                     </button>
