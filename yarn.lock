@@ -6144,6 +6144,11 @@
   "resolved" "https://registry.npmjs.org/jsesc/-/jsesc-0.5.0.tgz"
   "version" "0.5.0"
 
+"json-fn@^1.1.1":
+  "integrity" "sha512-diGeurhgiazd1lfByjn83uQkF6fVFdiCiQgJyhN3/aCl7EKye0aZe3r9eeQPKcsCh81Mntrvt46z65cn7ZwZHA=="
+  "resolved" "https://registry.npmjs.org/json-fn/-/json-fn-1.1.1.tgz"
+  "version" "1.1.1"
+
 "json-parse-even-better-errors@^2.3.0", "json-parse-even-better-errors@^2.3.1":
   "integrity" "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w=="
   "resolved" "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"

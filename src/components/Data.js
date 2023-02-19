@@ -1,3 +1,12 @@
+import {Model1} from "../components/assets/furniture/Furniture1"
+import {Model2} from "../components/assets/furniture/Furniture2"
+import {Model3} from "../components/assets/furniture/Furniture3"
+import {Model4} from "../components/assets/furniture/Furniture4"
+
+
+
+
+
 const Data = {
   productItems: [
     {
