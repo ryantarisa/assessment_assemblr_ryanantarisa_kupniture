@@ -9,7 +9,7 @@ import { useGLTF } from '@react-three/drei'
 export function Model1(props) {
     const { nodes, materials } = useGLTF('/furniture1.gltf')
     return (
-      <group {...props} dispose={null}>
+      <group {...props} ref={useRef()} receiveShadow castShadow dispose={null}>
         <mesh geometry={nodes.HUG_ARMCHAIRHUG_Armchair_602_014.geometry} material={materials.Base} rotation={[1.5, 5, 1.5]} position={[0, 0, 0]} scale={2.2} />
       </group>
     )

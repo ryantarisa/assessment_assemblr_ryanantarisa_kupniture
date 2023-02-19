@@ -43,8 +43,8 @@ const FeaturedCard = ({ productItems, addToCart }) => {
       <Slider {...settings}>
         {productItems.map((productItems) => {
           return (
-            <div className='box'>
-              <div className='product mtop'>
+            <div className=' box'>
+              <div className='featured product mtop'>
                 <div style={{textAlign:"center"}} className='img'>
                   <img src={productItems.cover} alt='' />
                 </div>

@@ -1,12 +1,3 @@
-import {Model1} from "../components/assets/furniture/Furniture1"
-import {Model2} from "../components/assets/furniture/Furniture2"
-import {Model3} from "../components/assets/furniture/Furniture3"
-import {Model4} from "../components/assets/furniture/Furniture4"
-
-
-
-
-
 const Data = {
   productItems: [
     {
@@ -58,6 +49,30 @@ const Data = {
       cover: "./images/flash/flash-8.png",
       name: "BHANF",
       price: "249.000",
+    },
+    {
+      id: 9,
+      cover: "./images/flash/flash-9.png",
+      name: "SANCTUARY",
+      price: "2.499.000",
+    },
+    {
+      id: 10,
+      cover: "./images/flash/flash-10.png",
+      name: "YGGDRASIL",
+      price: "499.000",
+    },
+    {
+      id: 11,
+      cover: "./images/flash/flash-11.png",
+      name: "SIENNA",
+      price: "700.000",
+    },
+    {
+      id: 12,
+      cover: "./images/flash/flash-12.png",
+      name: "MAMMUT",
+      price: "349.000",
     },
   ],
 }

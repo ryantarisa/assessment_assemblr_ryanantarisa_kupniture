@@ -11,7 +11,7 @@ const Featured = ({ productItems, addToCart }) => {
             <i className='fa fa-fire'></i>
             <h1>Featured</h1>
           </div>
-          <FeaturedCard productItems={productItems} addToCart={addToCart} />
+          <FeaturedCard  productItems={productItems} addToCart={addToCart} />
         </div>
       </section>
     </>
